@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Warning</title>
+</head>
+<body>
+
+    <h2>Click the button to see a warning!</h2>
+    <button onclick="showWarning()">Show Warning</button>
+
+    <script>
+        function showWarning() {
+            alert("Warning: Proceed with caution!");
+        }
+    </script>
+
+</body>
+</html>
